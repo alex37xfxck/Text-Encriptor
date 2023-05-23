@@ -74,23 +74,22 @@
     order: 1;
     flex-grow: 0;    
 }
-
-.botones{
+.botones {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 1% 0;
     position: absolute;
-    width: 80%;
+    width: 60%;
     left: 12%;
     top: 82%;
 }
 
-.btn-encriptar{
+.btn-encriptar {
     align-items: center;
     justify-content: center;
     padding: 2%;
-    gap: 8px;
+    margin-right: 10px; /* Agrega espacio entre los botones */
     width: 25%;
     background-color: #0a3871;
     border-radius: 25px;
@@ -98,17 +97,17 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    color: #fff;     
+    color: #fff;
 }
 
-.btn-desencriptar{
-    box-sizing: border-box ;
+.btn-desencriptar {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 2%;
-    gap: 8px;
+    margin-left: 10px; /* Agrega espacio entre los botones */
     width: 25%;
     background-color: #d8dfe8;
     border: 2px solid #0a3871;
@@ -118,7 +117,7 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    color: #0a3871;     
+    color: #0a3871;
 }
 
 .btn-desencriptar:hover,
@@ -178,7 +177,7 @@
 
 .encriptado img {
     position: absolute;
-    width: 70%;
+    width: 65%;
     height: 50%;
     top: 10%;
 }
