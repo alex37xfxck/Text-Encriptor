@@ -16,39 +16,39 @@
     
     <div class="container">
 
-            <div class="encriptar">
+        <div class="encriptar">
 
                 <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el Texto Aquí"></textarea>
 
-            </div>
+                <div class="terminos">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
 
-            <div class="terminos">
-                <p>Solo letras minúsculas y sin acentos</p>
-            </div>
+                <div class="botones">
 
-            <div class="botones">
+                    <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
 
-                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
 
-                <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+                </div>
 
-            </div>
+        </div>
 
+        <div class="encriptado">
 
-
-        <div class="encriptar">
-
-            <img src="" alt="" id="muñeco">
+            <img src="img/desencriptado.jpg" alt="" id="muñeco">
 
             <div class="mensaje-encriptado" id="mensaje-encriptado">
                 
-                <h2 id="titulo-mensaje">Ningún Mensaje encontrado</h2>
+                <h2 id="titulo-mensaje">Ningún Mensaje fue Encontrado</h2>
 
                 <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
 
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+                <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
 
             </div>
+            
+        </div>
 
     </div>
 
